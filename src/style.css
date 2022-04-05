@@ -12,16 +12,16 @@ body {
 h1,
 h2,
 h3 {
-  text-align: center !important;
+  text-align: center;
   margin: 0;
 }
 
 h1 {
-  font-size: 96px !important;
+  font-size: 96px;
 }
 
 h2 {
-  font-size: 48px !important;
+  font-size: 48px;
 }
 
 h3 {
@@ -99,4 +99,28 @@ p {
 }
 .section-description {
   text-align: start;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .desc,
+  .about-paragraphs,
+  h3 {
+    width: 80%;
+    margin: 10px auto;
+  }
+  .img-fluid {
+    display: none;
+  }
+  .section-btn {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
 }
