@@ -27,6 +27,9 @@ p {
   line-height: 1.5;
   text-align: center;
 }
+footer {
+  text-align: center;
+}
 
 .navigation-links {
   display: flex;
@@ -102,6 +105,10 @@ h2 {
   font-size: 18px !important;
   opacity: 0.6;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 
 .main-img,
 .about-img {
@@ -141,7 +148,13 @@ h2 {
 .about-text-wrapper {
   text-align: center;
 }
-
+.social-links {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
