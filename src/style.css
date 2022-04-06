@@ -103,11 +103,12 @@ h2 {
   opacity: 0.6;
 }
 
-.main-img {
+.main-img,
+.about-img {
   width: 200px;
   border-radius: 50%;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .hero {
@@ -136,6 +137,9 @@ h2 {
   text-transform: capitalize;
   padding: 10px 50px;
   border: none;
+}
+.about-text-wrapper {
+  text-align: center;
 }
 
 @media (max-width: 576px) {
